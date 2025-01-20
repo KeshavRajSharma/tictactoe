@@ -1,0 +1,21 @@
+/* src/styles/global.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  button {
+    all: unset;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font: inherit;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 0.25rem;
+  }
+
+  button:hover {
+    border-color: #ccc; /* Example hover style */
+  }
+}
