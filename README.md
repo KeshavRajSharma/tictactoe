@@ -9,7 +9,6 @@ A simple Tic Tac Toe game built using React while learning frontend development.
 
 ## Tech Used
 - React
-- JavaScript
 - HTML
 - CSS
 
